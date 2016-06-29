@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe SlackEmojiList do
+describe SlackEmoji do
   it 'has a version number' do
-    expect(SlackEmojiList::VERSION).not_to be nil
+    expect(SlackEmoji::VERSION).not_to be nil
   end
 
   it 'does something useful' do
