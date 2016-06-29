@@ -1,3 +1,3 @@
-module SlackEmojiList
+module SlackEmoji
   VERSION = "0.1.0"
 end
