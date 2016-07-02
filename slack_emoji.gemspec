@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "bin"
-  spec.executables   = ['slack_emoji_list']
+  spec.executables   = ['slack_emoji']
   spec.require_paths = ["lib"]
 
   spec.add_dependency "slack-api"
