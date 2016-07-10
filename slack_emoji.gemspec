@@ -1,10 +1,11 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'slack_emoji/version'
+# require 'slack_emoji/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "slack_emoji"
-  spec.version       = SlackEmoji::VERSION
+  # spec.version       = SlackEmoji::VERSION
+  spec.version       = '0.1'
   spec.authors       = ["dnond"]
   spec.email         = ["tarosuk@gmail.com"]
 
